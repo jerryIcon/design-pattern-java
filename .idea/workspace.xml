@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54893e9a-f864-4dad-bd13-b5cb5c2e5511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/singleton/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/singleton/Singleton0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/singleton/Singleton1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/singleton/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/singleton/Singleton3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/singleton/Singleton4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/singleton/Singleton5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/ImplA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/ImplB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -101,7 +101,7 @@
       <updated>1689077568852</updated>
       <workItem from="1689077571222" duration="5000" />
       <workItem from="1689077663056" duration="3610000" />
-      <workItem from="1689081322221" duration="867000" />
+      <workItem from="1689081322221" duration="2895000" />
     </task>
     <servers />
   </component>
