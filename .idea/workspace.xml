@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54893e9a-f864-4dad-bd13-b5cb5c2e5511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/ImplA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/SimpleFactory/ImplB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/AMDCpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/CPUApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/ComputerEngineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/GAMMainboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/IntelCpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/MSIMainboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/MainboardApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/Schema1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/compute/Schema2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/AbstractProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/AbstractProductB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/ConcreteFactory1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/ConcreteFactory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/ProductA1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/ProductA2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/ProductB1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jerryicon/design/AbstractFactory/demo/ProductB2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -45,18 +63,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/practice/设计模式/design-pattern-java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.5011494&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;consents&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/practice/设计模式/design-pattern-java/src/main/java/com/jerryicon/design/AbstractFactory",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5011494",
+    "settings.editor.selected.configurable": "consents"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Singlet">
     <configuration name="Singlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jerryicon.design.singleton.Singlet" />
@@ -101,7 +120,8 @@
       <updated>1689077568852</updated>
       <workItem from="1689077571222" duration="5000" />
       <workItem from="1689077663056" duration="3610000" />
-      <workItem from="1689081322221" duration="2895000" />
+      <workItem from="1689081322221" duration="2970000" />
+      <workItem from="1689167708128" duration="4389000" />
     </task>
     <servers />
   </component>
