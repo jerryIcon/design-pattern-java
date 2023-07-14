@@ -5,10 +5,14 @@ package com.jerryicon.design.AbstractFactory.compute;
  */
 public interface AbstractFactory {
 
-    // cpu
+    /**
+     * cpu
+     */
     CPUApi createCpu();
 
-    // 主板
+    /**
+     * 主板
+     */
     MainboardApi createMainboard();
 
 }
