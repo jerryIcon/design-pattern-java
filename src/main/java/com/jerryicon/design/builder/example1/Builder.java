@@ -1,4 +1,4 @@
-package com.jerryicon.design.builder.example;
+package com.jerryicon.design.builder.example1;
 
 /**
  * @author JerryIcon
