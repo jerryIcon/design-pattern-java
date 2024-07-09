@@ -4,7 +4,7 @@ package com.jerryicon.design.businessDelegatePattern;
  * @author JerryIcon
  * @date 2024/7/9 上午10:30
  */
-public class BUsinessDelegateDemo {
+public class BusinessDelegateDemo {
     public static void main(String[] args) {
 
         BusinessDelegate businessDelegate = new BusinessDelegate();
